@@ -72,10 +72,10 @@ type StationTypeCfg = {
 };
 
 const initialStations: StationTypeCfg[] = [
-  { id: "TE", name: "TE (shuttle)", flow: "pick", stations: 10, ratePerHour: 120, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
-  { id: "OSR", name: "OSR Standard", flow: "pick", stations: 20, ratePerHour: 90, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
-  { id: "DKR", name: "DKR", flow: "pick", stations: 8, ratePerHour: 100, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
-  { id: "SPK", name: "Small Pack", flow: "pack", stations: 15, ratePerHour: 100, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
+  { id: "TE", name: "TE", flow: "pick", stations: 10, ratePerHour: 120, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
+  { id: "OSR", name: "OSR Standard", flow: "pick", stations: 154, ratePerHour: 33, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
+  { id: "DKR", name: "DKR", flow: "pick", stations: 48, ratePerHour: 19, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
+  { id: "MSL", name: "Pick", flow: "pick", stations: 36, ratePerHour: 22, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
   { id: "LPK", name: "Large Pack", flow: "pack", stations: 10, ratePerHour: 60, shiftMix: { A: 1, B: 1, C: 0 }, enabled: true },
   { id: "INB-PAL", name: "Inbound Pallet", flow: "inbound", stations: 6, ratePerHour: 30, shiftMix: { A: 1, B: 1, C: 0.3 }, enabled: true },
   { id: "INB-SM", name: "Inbound Small Pack", flow: "inbound", stations: 8, ratePerHour: 70, shiftMix: { A: 1, B: 1, C: 0.3 }, enabled: true },
